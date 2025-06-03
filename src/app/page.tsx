@@ -26,23 +26,23 @@ const Home = () => {
 
         {/* Arabic Alphabet */}
         <Link
-          href="/sentences"
+          href="/daily-sentences"
           className="bg-gradient-to-r from-violet-400-100 to-red-200 hover:from-white hover:to-white text-purple-800 transition duration-300 p-6 rounded-2xl shadow-lg text-center text-base font-semibold hover:scale-105 transform"
         >
           <FaBookOpen className="mx-auto mb-2 text-3xl text-blue-500" />
           Daily Used Sentences <br />
-          Arabic ⟷  हिंदी ⟷ বাংলা 
+          Arabic ⟷  हिंदी ⟷ বাংলা  
           <br />
           <span className="text-sm">Sentence | वाक्य | বাক্য </span>
           
         </Link>
         {/* Learn Arabic and hindi sentences */}
         <Link
-          href="/arabicalphabet"
+          href="/arabic-alphabet"
           className="bg-gradient-to-r from-green-100 to-teal-200 hover:from-white hover:to-white text-purple-800 transition duration-300 p-6 rounded-2xl shadow-lg text-center text-base font-semibold hover:scale-105 transform"
         >
           <FaBookOpen className="mx-auto mb-2 text-3xl text-green-500" />
-          Arabic Sentences
+          Arabic Alphabet
           <br />
           <span className="text-sm">अरबी अक्षर</span>
           <br />
@@ -51,7 +51,7 @@ const Home = () => {
 
         {/* English Alphabet */}
         <Link
-          href="/englishalphabet"
+          href="/english-alphabet"
           className="bg-gradient-to-r from-yellow-100 to-orange-200 hover:from-white hover:to-white text-purple-800 transition duration-300 p-6 rounded-2xl shadow-lg text-center text-base font-semibold hover:scale-105 transform"
         >
           <FaGlobeAmericas className="mx-auto mb-2 text-3xl text-yellow-600" />
@@ -64,7 +64,7 @@ const Home = () => {
 
         {/* Hindi Alphabet */}
         <Link
-          href="/hindialphabet"
+          href="/hindi-alphabet"
           className="bg-gradient-to-r from-pink-100 to-purple-200 hover:from-white hover:to-white text-purple-800 transition duration-300 p-6 rounded-2xl shadow-lg text-center text-base font-semibold hover:scale-105 transform"
         >
           <FaBookOpen className="mx-auto mb-2 text-3xl text-pink-500" />
